@@ -1,6 +1,5 @@
-/*  your css code here. If applicable */
-#eg1{
-	position: absolute;
+#centerBox {
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -8,8 +7,9 @@
   height: 200px;
   background-color: lightblue;
   border: 2px solid black;
-	display: flex;
+
+  /* Add these properties to center the content */
+  display: flex;
   justify-content: center;
   align-items: center;
-	color:purple;
 }
