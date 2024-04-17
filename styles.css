@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-#box{
+#eg1{
 	position: absolute;
   top: 50%;
   left: 50%;
@@ -8,4 +8,8 @@
   height: 200px;
   background-color: lightblue;
   border: 2px solid black;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	color:purple;
 }
