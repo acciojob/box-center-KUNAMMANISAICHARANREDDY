@@ -1,24 +1,20 @@
-#centerBox{
-	position:absolute;
-	top:50%;
-	bottom:50%;
-	transform:translate(-50%,-50%);
-	width:200px;
-	height:200px;
-	border:2px soild black;
-	background-color:lightblue;
+#center-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  border: 2px solid black;
 }
- #centerBox{
-position:absolute;
-	top:0;
-	bottom:0;
-left:0;
-	right:0;
-	margin:auto;
-	color:purple;
-	 text-align:center;
-	 display:flex;
-	 justify-content:center;
-	 align-items:center;
-	 
+
+#center-box p {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  color: purple;
 }
