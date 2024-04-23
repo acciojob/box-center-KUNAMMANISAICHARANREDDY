@@ -1,12 +1,7 @@
 
-#centerBox {
-  width: 200px;
-  height: 200px;
-  background-color: lightblue;
-  border: 2px solid black;
-  color: purple;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#center-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* add the size and color properties here */
 }
